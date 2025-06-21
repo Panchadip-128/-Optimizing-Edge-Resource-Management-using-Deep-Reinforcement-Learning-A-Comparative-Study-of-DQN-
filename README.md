@@ -10,9 +10,7 @@ Performance Analysis of QKD Networks:
 
 ![image](https://github.com/user-attachments/assets/bb3c850b-3cb7-476e-8635-ff3b9417bbce)
 
-Edge resource management environment:
 
-![image](https://github.com/user-attachments/assets/f1034569-7962-4002-9d7a-3e70cf58d80b)
 
 Feature Correlation heatmap:
 
@@ -84,6 +82,10 @@ The proposed DDQN-based scheduling algorithm outperforms traditional heuristic a
 - **Action Space:** Discrete node selection
 - **Reward:** Negative latency with penalties for overload
 
+Edge resource management environment visualization:
+
+![image](https://github.com/user-attachments/assets/f1034569-7962-4002-9d7a-3e70cf58d80b)
+
 ### DDQN Agent
 
 - **Network Architecture:** Two hidden layers with 64 units each (ReLU)
@@ -118,6 +120,7 @@ The proposed DDQN-based scheduling algorithm outperforms traditional heuristic a
 - Load Distribution over Episodes
 - Latency and Overload Comparison (DDQN vs. Baseline)
 
+have been covered in colab notebook and results have been provided in src folder under this repository
 ---
 
 ## How to Run
