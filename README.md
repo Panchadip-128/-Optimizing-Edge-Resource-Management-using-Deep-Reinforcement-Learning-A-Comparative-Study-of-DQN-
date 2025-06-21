@@ -12,9 +12,6 @@ DRL-based Scheduler**: Utilizes DDQN for intelligent decision-making in QKD edge
 # Edge Resource Management in QKD Networks  
 ## An Advanced Simulation and Deep Reinforcement Learning Approach
 
-**Authors:** Panchadip Bhattacharjee, Advithiya Duddu, Gururaj H. L, Shreyas J  
-**Affiliation:** Manipal Institute of Technology, Bengaluru  
-**Contact:** panchadip125@gmail.com
 
 ---
 
