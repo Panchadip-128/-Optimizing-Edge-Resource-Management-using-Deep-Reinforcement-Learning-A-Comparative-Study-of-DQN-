@@ -38,7 +38,28 @@ DRL-based Scheduler**: Utilizes DDQN for intelligent decision-making in QKD edge
 
 
 # Edge Resource Management in QKD Networks  
-## (An Advanced Simulation and Deep Reinforcement Learning Approach)
+- (An Advanced Simulation and Deep Reinforcement Learning Approach)
+
+
+## Dataset Information
+
+The system leverages a highly configurable simulation environment to model a broad spectrum of **quantum key distribution (QKD) conditions** and **edge network scenarios**. This setup enables the generation of diverse task loads, quantum error profiles, and node behaviors, allowing the agent to learn under both typical and adverse operating conditions.
+
+Rather than relying on a static dataset, the environment produces varied input conditions dynamically across episodes, such as:
+
+- **Quantum Bit Error Rates (QBER):** Spanning a wide range to reflect different physical link qualities and noise levels.
+- **Edge Node Loads:** Randomized and normalized across nodes, simulating real-world variability in computational demand and resource availability.
+- **Network Latency and Cost Dynamics:** Adjusted in response to changing task and channel conditions, mimicking real deployment challenges.
+
+This approach ensures the **reproducibility** and **controllability** required for benchmarking reinforcement learning agents while also allowing for **systematic stress-testing** of different strategies.
+
+By generating a **rich and comprehensive range of operational scenarios**, the system enables:
+
+- Robust evaluation of resource scheduling strategies
+- Fine-grained analysis of performance under controlled impairments
+- The training of agents capable of generalizing to unseen edge conditions
+
+This makes the project highly applicable to **practical QKD deployments**, where diverse and dynamic environments are the norm, and ensures that the learning outcomes are **adaptive, transferable, and resilient**.
 
 ## Project Overview
 
