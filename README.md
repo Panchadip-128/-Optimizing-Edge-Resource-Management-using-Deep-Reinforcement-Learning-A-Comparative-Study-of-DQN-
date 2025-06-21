@@ -10,10 +10,7 @@ DRL-based Scheduler**: Utilizes DDQN for intelligent decision-making in QKD edge
 
 
 # Edge Resource Management in QKD Networks  
-## An Advanced Simulation and Deep Reinforcement Learning Approach
-
-
----
+## (An Advanced Simulation and Deep Reinforcement Learning Approach)
 
 ## Project Overview
 
@@ -98,3 +95,11 @@ The proposed DDQN-based scheduling algorithm outperforms traditional heuristic a
 1. **Install Dependencies** (if not using Google Colab):
    ```bash
    pip install numpy pandas matplotlib gym
+
+2. Run the Notebook:
+Open QKD_DDQN.ipynb in Jupyter or Colab and execute all cells sequentially.
+
+3. Review Output:
+All plots and results will be generated automatically within the notebook.
+
+
